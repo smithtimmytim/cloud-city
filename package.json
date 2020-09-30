@@ -1,0 +1,21 @@
+{
+    "name": "cloud-city",
+    "displayName": "Cloud City",
+    "description": "A beautiful dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cloud City",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cloud City-color-theme.json"
+            }
+        ]
+    }
+}

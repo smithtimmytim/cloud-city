@@ -1,0 +1,29 @@
+/*
+ * These are some comments
+ * - hello what's happening
+ */
+
+.my-class {
+  background: red;
+  margin-right: var(--my-var);
+}
+
+#here-is-an-id {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  color: #444;
+}
+
+main {
+  padding: 40px 0;
+}
+
+a:not([class]) {
+  color: blue;
+
+  &:hover,
+  &:focus {
+    color: purple;
+  }
+}
